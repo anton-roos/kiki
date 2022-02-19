@@ -9,6 +9,93 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Control",
+			"scope": [
+				"punctuation.parenthesis.close.cs",
+				"punctuation.accessor.cs",
+				"punctuation.terminator.statement.cs"
+			],
+			"settings": {
+				"foreground": "#ffaaaa"
+			}
+		},
+		{
+			"name": "Control",
+			"scope": [
+				"keyword.control.cs",
+				"keyword.control.conditional.if.cs",
+				"keyword.control.conditional.else.cs",
+				"keyword.control.switch.cs",
+				"keyword.control.case.cs",
+				"keyword.control.flow.break.cs",
+				"keyword.control.default.cs",
+				"keyword.control.try.cs",
+				"keyword.control.try.catch.cs"
+			],
+			"settings": {
+				"foreground": "#C586C0"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"entity.name.variable.local.cs",
+				"variable.other.readwrite.cs",
+				"variable.other.object.cs",
+			],
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"name": "Assignment Operator",
+			"scope": [
+				"keyword.operator.comparison.cs",
+			],
+			"settings": {
+				"foreground": "#A2659D"
+			}
+		},
+		{
+			"name": "Assignment Operator",
+			"scope": [
+				"keyword.operator.assignment.cs",
+			],
+			"settings": {
+				"foreground": "#a8e7b8"
+			}
+		},
+		{
+			"name": "Interface",
+			"scope": [
+				"entity.name.type.interface.cs",
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"name": "Storage (public private)",
+			"scope": [
+				"storage.modifier.cs",
+				"keyword.other.interface.cs",
+				"keyword.other.class.cs",
+				"keyword.type.cs"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"name": "Storage (public private)",
+			"scope": [
+				"storage.modifier.cs",
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
