@@ -1,0 +1,21 @@
+{
+    "name": "kiki",
+    "displayName": "Kiki",
+    "description": "Professional dark theme for VS Code.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Kiki",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Kiki-color-theme.json"
+            }
+        ]
+    }
+}
