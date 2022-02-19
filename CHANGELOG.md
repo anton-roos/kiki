@@ -9,4 +9,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release
 - 0.0.1 Color Fixes
 - 0.0.2 Color Fixes
-- 0.0.2 C# Control Color Fixes
+- 0.0.3 C# Control Color Fixes
+- 0.0.4 C# Types and Other Color Fixes
