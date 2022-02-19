@@ -1,0 +1,15 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Kiki C# Colors",
+    "include": "./js.json",
+	"tokenColors": [
+		{
+			"scope": [
+				"sd",
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+	],
+}

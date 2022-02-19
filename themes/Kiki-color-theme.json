@@ -1,6 +1,7 @@
 {
 	"name": "Kiki",
 	"type": "dark",
+	"include": "./cs.json",
 	"colors": {
 		"editor.background": "#1e1e1e",
 		"editor.foreground": "#d4d4d4",
@@ -253,5 +254,12 @@
 				"foreground": "#569CD6",
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"newOperator": "#d4d4d4",
+		"stringLiteral": "#ce9178",
+		"customLiteral": "#D4D4D4",
+		"numberLiteral": "#b5cea8",
+	}
 }
