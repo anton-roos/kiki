@@ -2,8 +2,8 @@
 	"name": "Kiki",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#1e1e1e",
+		"editor.foreground": "#d4d4d4",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -16,7 +16,14 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#333333"
+			}
+		},
+		{
+			"name": "Function",
+			"scope":["entity.name.function.cs"],
+			"settings": {
+				"foreground": "#DCDCAA",
 			}
 		},
 		{
@@ -147,10 +154,15 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"punctuation.definition.string.end.cs",
+				"punctuation.definition.string.begin.cs",
+				"string.quoted.double.cs",
+				"string.quoted.double.cs",
+				"source.cs"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#CE9178"
 			}
 		},
 		{
@@ -566,6 +578,15 @@
 			],
 			"settings": {
 				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Class",
+			"scope": [
+				"storage.type.cs"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
 			}
 		},
 		{
